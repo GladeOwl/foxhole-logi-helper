@@ -1,0 +1,125 @@
+Item,Type,BMats,RMats,EMats,HEMats,Per Crate
+Catara mo.II,Small Arms,165,,,,10
+Dusk ce.III,Small Arms,165,,,,10
+7.92mm,Small Arms,120,,,,30
+KRN886-127 Gast Machine Gun,Small Arms,,25,,,5
+Bomastone Grenade,Small Arms,100,,20,,25
+8mm,Small Arms,40,,,,40
+Cometa T2-9,Small Arms,60,,,,30
+.44,Small Arms,40,,,,40
+Argenti r.II Rifle,Small Arms,100,,,,20
+Volta r.I Repeater,Small Arms,100,,,,15
+Fuscina pi.I,Small Arms,140,,,,20
+KRR2-790 Omen,Small Arms,155,,,,15
+KRR3-792 Auger,Small Arms,200,15,,,5
+7.62mm,Small Arms,80,,,,40
+Brasa Shotgun,Small Arms,80,,,,20
+Buckshot,Small Arms,80,,,,40
+The Pitch Gun mc.V,Small Arms,80,,,,20
+Lionclaw mc.VIII,Small Arms,120,,,,20
+9mm,Small Arms,80,,,,40
+PT-815 Smoke Grenade,Small Arms,120,,,,10
+Green Ash Grenade,Small Arms,140,,,,10
+12.7mm,Small Arms,100,,,,20
+Typhon ra.XII,Heavy Arms,100,5,,,5
+20mm,Heavy Arms,100,,,,10
+Venom c.II 35,Heavy Arms,100,15,,,5
+Bane 45,Heavy Arms,150,40,,,5
+AP/RPG,Heavy Arms,60,,75,,15
+KLG901-2 Lunaire F,Heavy Arms,50,5,,,10
+Tremola Grenade GPb-1,Heavy Arms,150,,10,,15
+Lamentum mm.IV,Heavy Arms,100,5,,,5
+Daucus isg.III,Heavy Arms,100,5,,,5
+30mm,Heavy Arms,80,,20,,20
+Cremari Mortar,Heavy Arms,100,25,,,5
+Flare Mortar Shell,Heavy Arms,60,,10,,15
+Shrapnel Mortar Shell,Heavy Arms,60,,15,,15
+Mortar Shell,Heavy Arms,60,,35,,15
+Ignifist 30,Heavy Arms,85,,35,,10
+Mammon 91-b,Heavy Arms,100,,10,,20
+Anti-Tank Sticky Bomb,Heavy Arms,50,,50,,10
+RPG,Heavy Arms,60,,45,,15
+150mm,Heavy Ammo,120,,,10,5
+120mm,Heavy Ammo,60,,15,,5
+300mm,Heavy Ammo,135,,,30,5
+250mm,Heavy Ammo,120,,,25,5
+68mm,Heavy Ammo,120,,120,,20
+40mm,Heavy Ammo,160,,120,,20
+Warhead,Heavy Ammo,,200,,1000,1
+Binoculars,Utility,75,,,,5
+Hydra's Whisper,Utility,100,,40,,5
+Listening Kit,Utility,150,,,,5
+Radio Backpack,Utility,150,,,,5
+Alligator Charge,Utility,100,,,15,5
+Shovel,Utility,200,,,,10
+Sledge Hammer,Utility,200,,,,10
+Abisme AT-99,Utility,100,,10,,10
+Tripod,Utility,100,,,,5
+Wrench,Utility,75,,,,5
+Buckhorn CQB-18,Utility,40,,,,20
+Gas Mask,Utility,160,,,,20
+Gas Mask Filter,Utility,100,,,,20
+Radio,Utility,75,,,,5
+Rocket Booster,Utility,,800,,,1
+Bandages,Medical,80,,,,50
+First Aid Kit,Medical,60,,,,10
+Trauma Kit,Medical,80,,,,10
+Blood Plasma,Medical,80,,,,50
+Soldier Supplies,Medical,80,,,,10
+Bunker Supplies,Supplies,75,,,,150
+Garrison Supplies,Supplies,75,,,,150
+Velian Flak Vest,Uniforms,100,,,,5
+Fabri Rucksack,Uniforms,100,,,,15
+Grenadier's Baldric,Uniforms,100,,,,15
+Medic Fatigues,Uniforms,100,,,,15
+Officialis' Attire,Uniforms,100,,,,3
+Legionary's Oilcoat,Uniforms,100,,,,15
+Recon Camo,Uniforms,100,,,,15
+Heavy Topcoat,Uniforms,100,,,,15
+Tankman's Coveralls,Uniforms,100,,,,15
+Barbed Wire Pallet,Shippable,100,,,,1
+Concrete Mixer,Shippable,,75,,,1
+68mm Anti-Tank Cannon,Shippable,150,,,,1
+50-500 Thunderbolt Cannon,Shippable,,195,,,1
+12.7mm Anti-Infantry Flak Gun,Shippable,75,,,,1
+Metal Beam Pallet,Shippable,100,,,,1
+Resource Container,Shippable,50,,,,1
+Sandbag Pallet,Shippable,100,,,,1
+Shipping Container,Shippable,100,,,,1
+Small Shipping Container,Shippable,100,,,,1
+R-12 Salus Ambulance,Vehicle,150,,,,1
+T3 Xiphos,Vehicle,,40,,,1
+T12 Actaeon Tankette,Vehicle,,50,,,1
+T5 Percutio,Vehicle,,40,,,1
+T8 Gemini,Vehicle,,45,,,1
+R-15 - Chariot,Vehicle,100,,,,1
+AA-2 Battering Ram,Vehicle,,30,,,1
+68-45 Smelter Heavy Field Gun,Vehicle,,40,,,1
+120-68 Koronides Field Gun,Vehicle, ,50,,,1
+G40 Sagittarii,Vehicle,,25,,,1
+BMS - Packmule Flatbed,Vehicle,,30,,,1
+HH-d Peltast,Vehicle,,70,,,1
+HH-a Javelin,Vehicle,,55,,,1
+HH-b Hoplite,Vehicle,,70,,,1
+BMS - Scrap Hauler,Vehicle,,120,,,1
+AB-8 Acheron,Vehicle,,20,,,1
+AB-11 Doru,Vehicle,,45,,,1
+HC-2 Scorpion,Vehicle,,140,,,1
+H5 Hatchet,Vehicle,,135,,,1
+H8 Kranesca,Vehicle,,160,,,1
+H10 Pelekys,Vehicle,,145,,,1
+86K-a Bardiche ,Vehicle,,175,,,1
+85K-b Falchion,Vehicle,,165,,,1
+85K-a Spatha,Vehicle,,165,,,1
+HC-7 Ballista,Vehicle,,155,,,1
+03MM Caster,Vehicle,85,,,,1
+00MS Stinger,Vehicle,110,,,,1
+RR-3 Stolon Tanker,Vehicle,100,,,,1
+R-9 Speartip Escort,Vehicle,145,,,,1
+R-5b Sisyphus Hauler,Vehicle,100,,,,1
+R-5 Atlas Hauler,Vehicle,120,,,,1
+R-1 Hauler,Vehicle,100,,,,1
+T20 Ixion Tankette,Vehicle,,60,,,1
+UV-05a Argonaut,Vehicle,,10,,,1
+UV-24 Icarus,Vehicle,,25,,,1
+UV-5c Odyssey,Vehicle,,10,,,1

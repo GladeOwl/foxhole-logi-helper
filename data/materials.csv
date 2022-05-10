@@ -1,0 +1,7 @@
+Material,aka,Raw Resource,Per Stack,Per Crate,Conversion Rate
+Basic Materials,BMats,Salvage,100,100,2
+Diesel,,Salvage,1,1,10
+Explosive Materials,EMats,Salvage,100,20,10
+Refined Materials,RMats,Components,100,20,20
+Heavy Explosive Materials,HEMats,Sulphur,,,20
+Petrol,,Crude Oil,1,1,3

@@ -1,0 +1,44 @@
+{
+    "Basic Materials": {
+        "aka": "BMats",
+        "Resource": "Salvage",
+        "Per Stack": 100,
+        "Per Crate": 100,
+        "Conversion Rate": 2
+    },
+    "Diesel": {
+        "aka": "",
+        "Resource": "Salvage",
+        "Per Stack": 1,
+        "Per Crate": 1,
+        "Conversion Rate": 10
+    },
+    "Explosive Materials": {
+        "aka": "EMats",
+        "Resource": "Salvage",
+        "Per Stack": 100,
+        "Per Crate": 20,
+        "Conversion Rate": 10
+    },
+    "Refined Materials": {
+        "aka": "RMats",
+        "Resource": "Components",
+        "Per Stack": 100,
+        "Per Crate": 20,
+        "Conversion Rate": 20
+    },
+    "Heavy Explosive Materials": {
+        "aka": "HEMats",
+        "Resource": "Sulphur",
+        "Per Stack": 0,
+        "Per Crate": 0,
+        "Conversion Rate": 20
+    },
+    "Petrol": {
+        "aka": "",
+        "Resource": "Crude Oil",
+        "Per Stack": 1,
+        "Per Crate": 1,
+        "Conversion Rate": 3
+    }
+}
