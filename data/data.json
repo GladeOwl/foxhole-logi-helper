@@ -1,0 +1,1047 @@
+{
+    "items": {
+        "Catara mo.II": {
+            "Type": "Small Arms",
+            "Bmats": 165,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Dusk ce.III": {
+            "Type": "Small Arms",
+            "Bmats": 165,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "7.92mm": {
+            "Type": "Small Arms",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 30
+        },
+        "KRN886-127 Gast Machine Gun": {
+            "Type": "Small Arms",
+            "Bmats": 0,
+            "Rmats": 25,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Bomastone Grenade": {
+            "Type": "Small Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 20,
+            "HEmats": 0,
+            "Per Crate": 25
+        },
+        "8mm": {
+            "Type": "Small Arms",
+            "Bmats": 40,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 40
+        },
+        "Cometa T2-9": {
+            "Type": "Small Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 30
+        },
+        ".44": {
+            "Type": "Small Arms",
+            "Bmats": 40,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 40
+        },
+        "Argenti r.II Rifle": {
+            "Type": "Small Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Volta r.I Repeater": {
+            "Type": "Small Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Fuscina pi.I": {
+            "Type": "Small Arms",
+            "Bmats": 140,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "KRR2-790 Omen": {
+            "Type": "Small Arms",
+            "Bmats": 155,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "KRR3-792 Auger": {
+            "Type": "Small Arms",
+            "Bmats": 200,
+            "Rmats": 15,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "7.62mm": {
+            "Type": "Small Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 40
+        },
+        "Brasa Shotgun": {
+            "Type": "Small Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Buckshot": {
+            "Type": "Small Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 40
+        },
+        "The Pitch Gun mc.V": {
+            "Type": "Small Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Lionclaw mc.VIII": {
+            "Type": "Small Arms",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "9mm": {
+            "Type": "Small Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 40
+        },
+        "PT-815 Smoke Grenade": {
+            "Type": "Small Arms",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Green Ash Grenade": {
+            "Type": "Small Arms",
+            "Bmats": 140,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "12.7mm": {
+            "Type": "Small Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Typhon ra.XII": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 5,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "20mm": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Venom c.II 35": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 15,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Bane 45": {
+            "Type": "Heavy Arms",
+            "Bmats": 150,
+            "Rmats": 40,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "AP/RPG": {
+            "Type": "Heavy Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 75,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "KLG901-2 Lunaire F": {
+            "Type": "Heavy Arms",
+            "Bmats": 50,
+            "Rmats": 5,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Tremola Grenade GPb-1": {
+            "Type": "Heavy Arms",
+            "Bmats": 150,
+            "Rmats": 0,
+            "Emats": 10,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Lamentum mm.IV": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 5,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Daucus isg.III": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 5,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "30mm": {
+            "Type": "Heavy Arms",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 20,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Cremari Mortar": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 25,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Flare Mortar Shell": {
+            "Type": "Heavy Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 10,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Shrapnel Mortar Shell": {
+            "Type": "Heavy Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 15,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Mortar Shell": {
+            "Type": "Heavy Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 35,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Ignifist 30": {
+            "Type": "Heavy Arms",
+            "Bmats": 85,
+            "Rmats": 0,
+            "Emats": 35,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Mammon 91-b": {
+            "Type": "Heavy Arms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 10,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Anti-Tank Sticky Bomb": {
+            "Type": "Heavy Arms",
+            "Bmats": 50,
+            "Rmats": 0,
+            "Emats": 50,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "RPG": {
+            "Type": "Heavy Arms",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 45,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "150mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 10,
+            "Per Crate": 5
+        },
+        "120mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 15,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "300mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 135,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 30,
+            "Per Crate": 5
+        },
+        "250mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 25,
+            "Per Crate": 5
+        },
+        "68mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 120,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "40mm": {
+            "Type": "Heavy Ammo",
+            "Bmats": 160,
+            "Rmats": 0,
+            "Emats": 120,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Warhead": {
+            "Type": "Heavy Ammo",
+            "Bmats": 0,
+            "Rmats": 200,
+            "Emats": 0,
+            "HEmats": 1000,
+            "Per Crate": 1
+        },
+        "Binoculars": {
+            "Type": "Utility",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Hydra's Whisper": {
+            "Type": "Utility",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 40,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Listening Kit": {
+            "Type": "Utility",
+            "Bmats": 150,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Radio Backpack": {
+            "Type": "Utility",
+            "Bmats": 150,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Alligator Charge": {
+            "Type": "Utility",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 15,
+            "Per Crate": 5
+        },
+        "Shovel": {
+            "Type": "Utility",
+            "Bmats": 200,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Sledge Hammer": {
+            "Type": "Utility",
+            "Bmats": 200,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Abisme AT-99": {
+            "Type": "Utility",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 10,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Tripod": {
+            "Type": "Utility",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Wrench": {
+            "Type": "Utility",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Buckhorn CQB-18": {
+            "Type": "Utility",
+            "Bmats": 40,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Gas Mask": {
+            "Type": "Utility",
+            "Bmats": 160,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Gas Mask Filter": {
+            "Type": "Utility",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 20
+        },
+        "Radio": {
+            "Type": "Utility",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Rocket Booster": {
+            "Type": "Utility",
+            "Bmats": 0,
+            "Rmats": 800,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Bandages": {
+            "Type": "Medical",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 50
+        },
+        "First Aid Kit": {
+            "Type": "Medical",
+            "Bmats": 60,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Trauma Kit": {
+            "Type": "Medical",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Blood Plasma": {
+            "Type": "Medical",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 50
+        },
+        "Soldier Supplies": {
+            "Type": "Medical",
+            "Bmats": 80,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 10
+        },
+        "Bunker Supplies": {
+            "Type": "Supplies",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 150
+        },
+        "Garrison Supplies": {
+            "Type": "Supplies",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 150
+        },
+        "Velian Flak Vest": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 5
+        },
+        "Fabri Rucksack": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Grenadier's Baldric": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Medic Fatigues": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Officialis' Attire": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 3
+        },
+        "Legionary's Oilcoat": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Recon Camo": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Heavy Topcoat": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Tankman's Coveralls": {
+            "Type": "Uniforms",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 15
+        },
+        "Barbed Wire Pallet": {
+            "Type": "Shippable",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Concrete Mixer": {
+            "Type": "Shippable",
+            "Bmats": 0,
+            "Rmats": 75,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "68mm Anti-Tank Cannon": {
+            "Type": "Shippable",
+            "Bmats": 150,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "50-500 Thunderbolt Cannon": {
+            "Type": "Shippable",
+            "Bmats": 0,
+            "Rmats": 195,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "12.7mm Anti-Infantry Flak Gun": {
+            "Type": "Shippable",
+            "Bmats": 75,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Metal Beam Pallet": {
+            "Type": "Shippable",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Resource Container": {
+            "Type": "Shippable",
+            "Bmats": 50,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Sandbag Pallet": {
+            "Type": "Shippable",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Shipping Container": {
+            "Type": "Shippable",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "Small Shipping Container": {
+            "Type": "Shippable",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-12 Salus Ambulance": {
+            "Type": "Vehicle",
+            "Bmats": 150,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "T3 Xiphos": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 40,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "T12 Actaeon Tankette": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 50,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "T5 Percutio": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 40,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "T8 Gemini": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 45,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-15 - Chariot": {
+            "Type": "Vehicle",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "AA-2 Battering Ram": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 30,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "68-45 Smelter Heavy Field Gun": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 40,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "120-68 Koronides Field Gun": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 50,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "G40 Sagittarii": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 25,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "BMS - Packmule Flatbed": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 30,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "HH-d Peltast": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 70,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "HH-a Javelin": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 55,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "HH-b Hoplite": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 70,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "BMS - Scrap Hauler": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 120,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "AB-8 Acheron": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 20,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "AB-11 Doru": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 45,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "HC-2 Scorpion": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 140,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "H5 Hatchet": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 135,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "H8 Kranesca": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 160,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "H10 Pelekys": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 145,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "86K-a Bardiche ": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 175,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "85K-b Falchion": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 165,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "85K-a Spatha": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 165,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "HC-7 Ballista": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 155,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "03MM Caster": {
+            "Type": "Vehicle",
+            "Bmats": 85,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "00MS Stinger": {
+            "Type": "Vehicle",
+            "Bmats": 110,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "RR-3 Stolon Tanker": {
+            "Type": "Vehicle",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-9 Speartip Escort": {
+            "Type": "Vehicle",
+            "Bmats": 145,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-5b Sisyphus Hauler": {
+            "Type": "Vehicle",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-5 Atlas Hauler": {
+            "Type": "Vehicle",
+            "Bmats": 120,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "R-1 Hauler": {
+            "Type": "Vehicle",
+            "Bmats": 100,
+            "Rmats": 0,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "T20 Ixion Tankette": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 60,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "UV-05a Argonaut": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 10,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "UV-24 Icarus": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 25,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        },
+        "UV-5c Odyssey": {
+            "Type": "Vehicle",
+            "Bmats": 0,
+            "Rmats": 10,
+            "Emats": 0,
+            "HEmats": 0,
+            "Per Crate": 1
+        }
+    },
+    "materials": {
+        "Basic Materials": {
+            "aka": "BMats",
+            "Resource": "Salvage",
+            "Per Stack": 100,
+            "Per Crate": 100,
+            "Conversion Rate": 2
+        },
+        "Diesel": {
+            "aka": "",
+            "Resource": "Salvage",
+            "Per Stack": 1,
+            "Per Crate": 1,
+            "Conversion Rate": 10
+        },
+        "Explosive Materials": {
+            "aka": "EMats",
+            "Resource": "Salvage",
+            "Per Stack": 100,
+            "Per Crate": 20,
+            "Conversion Rate": 10
+        },
+        "Refined Materials": {
+            "aka": "RMats",
+            "Resource": "Components",
+            "Per Stack": 100,
+            "Per Crate": 20,
+            "Conversion Rate": 20
+        },
+        "Heavy Explosive Materials": {
+            "aka": "HEMats",
+            "Resource": "Sulphur",
+            "Per Stack": 0,
+            "Per Crate": 0,
+            "Conversion Rate": 20
+        },
+        "Petrol": {
+            "aka": "",
+            "Resource": "Crude Oil",
+            "Per Stack": 1,
+            "Per Crate": 1,
+            "Conversion Rate": 3
+        }
+    },
+    "vehicles": {
+        "R-1 Hauler": 15,
+        "R-5b Sisyphus Hauler": 14,
+        "R-9 Speartip Escort": 15,
+        "UV-05a Argonaut": 7,
+        "UV-5c Odyssey": 7
+    }
+}

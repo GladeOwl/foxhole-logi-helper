@@ -8,6 +8,7 @@ def convert_to_number(number):
 def convert_to_json():
     item_data = {}
     mat_data = {}
+    vic_data = {}
 
     with open('./data/items.csv', encoding='utf-8') as csvf:
         csvReader = csv.DictReader(csvf)
@@ -24,9 +25,6 @@ def convert_to_json():
             }
             item_data[key] = item
     
-    with open('./data/items.json', 'w', encoding='utf-8') as jsonf:
-        jsonf.write(json.dumps(item_data, indent=4))
-
     with open('./data/materials.csv', encoding='utf-8') as csvf:
         csvReader = csv.DictReader(csvf)
 
@@ -41,8 +39,21 @@ def convert_to_json():
             }
             mat_data[key] = item
     
-    with open('./data/materials.json', 'w', encoding='utf-8') as jsonf:
-        jsonf.write(json.dumps(mat_data, indent=4))
+    with open('./data/vehicles.csv', encoding='utf-8') as csvf:
+        csvReader = csv.DictReader(csvf)
+
+        for rows in csvReader:
+            key = rows['Vehicle']
+            vic_data[key] = convert_to_number(rows['Slots'])
+
+    data = {
+        "items" : item_data,
+        "materials" : mat_data,
+        "vehicles" : vic_data
+    }
+
+    with open('./data/data.json', 'w', encoding='utf-8') as jsonf:
+        jsonf.write(json.dumps(data, indent=4))
 
 if __name__ == '__main__':
     convert_to_json()
