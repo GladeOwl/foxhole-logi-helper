@@ -6,6 +6,7 @@ class Order():
     def __init__(self, name: str, amount: float, mpf: bool):
         self.name = name
         self.item = data['items'][name]
+        self.type = self.item['Type']
         self.amount = amount
         self.mpf = mpf
         self.status = True
@@ -17,7 +18,7 @@ class Order():
             self.calculate_factory()
 
     def calculate_factory(self):
-        if self.item["Type"] == "Vehicle" or self.item["Type"] == "Shippable":
+        if self.type == "Vehicle" or self.type == "Shippable":
             print("Cannot build Vehicles or Shippables in Factory, please select MPF.")
             self.status = False
             return
@@ -30,12 +31,12 @@ class Order():
         }
 
     def calcuate_mpf(self):
-        if self.item["Type"] != "Vehicle" and self.item["Type"] != "Shippable" and self.amount < 3:
+        if self.type != "Vehicle" and self.type != "Shippable" and self.amount < 3:
             print("Cannot build less than 3 crates of items.")
             self.status = False
             return
 
-        if self.item["Type"] == "Medical" or self.item["Type"] == "Utility":
+        if self.type == "Medical" or self.type == "Utility":
             print("Cannot build Medical and Utilities in MPF, please select Factory.")
             self.status = False
             return
@@ -45,7 +46,7 @@ class Order():
             self.status = False
             return
 
-        max_mpf_queue = 9 if not self.item["Type"] == "Vehicle" or self.item["Type"] == "Shippable" else 5
+        max_mpf_queue = 9 if not self.type == "Vehicle" or self.type == "Shippable" else 5
         place_in_queue = 1
         starting_discount = 10
         current_discount = 10
@@ -62,10 +63,10 @@ class Order():
                 place_in_queue = 1
                 current_discount = starting_discount
 
-            bmats += self.calculate_discounted_amount(self.item['Bmats'], current_discount, self.item['Type'])
-            rmats += self.calculate_discounted_amount(self.item['Rmats'], current_discount, self.item['Type'])
-            emats += self.calculate_discounted_amount(self.item['Emats'], current_discount, self.item['Type'])
-            hemats += self.calculate_discounted_amount(self.item['HEmats'], current_discount, self.item['Type'])
+            bmats += self.calculate_discounted_amount(self.item['Bmats'], current_discount, self.type)
+            rmats += self.calculate_discounted_amount(self.item['Rmats'], current_discount, self.type)
+            emats += self.calculate_discounted_amount(self.item['Emats'], current_discount, self.type)
+            hemats += self.calculate_discounted_amount(self.item['HEmats'], current_discount, self.type)
 
             if (current_discount < max_discount): 
                 current_discount += discount_increment
