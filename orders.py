@@ -1,4 +1,5 @@
 import json
+import math
 
 data = json.load(open('./data/data.json', 'r', encoding='utf-8'))
 
@@ -29,7 +30,7 @@ class Order():
             "Emats" : self.item['Emats'] * self.amount,
             "HEmats" : self.item['HEmats'] * self.amount
         }
-
+    
     def calcuate_mpf(self):
         if self.type != "Vehicle" and self.type != "Shippable" and self.amount < 3:
             print("Cannot build less than 3 crates of items.")
@@ -82,11 +83,34 @@ class Order():
     def calculate_discounted_amount(self, amount, discount, type):
         if type == "Vehicle" or type == "Shippable":
             amount *= 3
-        return amount - ((discount * amount) / 100)
-        
+        return math.floor(amount - ((discount * amount) / 100))
+
+def handle_orders(orders):
+    order_data = {
+        "total_mats" : {
+            "Bmats" : 0,
+            "Rmats" : 0,
+            "Emats" : 0,
+            "HEmats" : 0
+        },
+        "orders" : []
+    }
+
+    for order in orders:
+        new_order = Order(order['name'], order['amount'], order['mpf'])
+        cost = new_order.total_mats
+
+        order_data['total_mats']['Bmats'] += cost["Bmats"]
+        order_data['total_mats']['Rmats'] += cost["Rmats"]
+        order_data['total_mats']['Emats'] += cost["Emats"]
+        order_data['total_mats']['HEmats'] += cost["HEmats"]
+        order_data['orders'].append({ 'name' : order['name'], 'amount': order['amount'], 'cost' : cost })
+
+    return order_data
+
 # NOTE: Factory orders require a min of 3 crates in the MPF
 # NOTE: MPF production becomes shorter for each extra item queued
 # NOTE: If the factory has 25 queued orders (meaning it's full), the production speed increases by 15 times for item crates and 12.5 times for vehicles and shippables
 
-new_order = Order("Green Ash Grenade", 9, True)
-print(new_order.total_mats)
+# new_order = Order("AP/RPG", 3, True)
+# print(new_order.total_mats)
