@@ -1,7 +1,7 @@
 {
     "total_mats": {
-        "Bmats": 1170,
-        "Rmats": 1396,
+        "Bmats": 512,
+        "Rmats": 0,
         "Emats": 0,
         "HEmats": 0
     },
@@ -12,36 +12,6 @@
             "cost": {
                 "Bmats": 512,
                 "Rmats": 0,
-                "Emats": 0,
-                "HEmats": 0
-            }
-        },
-        {
-            "name": "Dusk ce.III",
-            "amount": 6,
-            "cost": {
-                "Bmats": 658,
-                "Rmats": 0,
-                "Emats": 0,
-                "HEmats": 0
-            }
-        },
-        {
-            "name": "HC-2 Scorpion",
-            "amount": 3,
-            "cost": {
-                "Bmats": 0,
-                "Rmats": 1008,
-                "Emats": 0,
-                "HEmats": 0
-            }
-        },
-        {
-            "name": "UV-24 Icarus",
-            "amount": 7,
-            "cost": {
-                "Bmats": 0,
-                "Rmats": 388,
                 "Emats": 0,
                 "HEmats": 0
             }

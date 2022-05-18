@@ -8,17 +8,15 @@ with open("./data/data.json", "r", encoding="utf-8") as dataFile:
 class OrderEntry(dict):
     """A class for holding a singular order entry"""
 
-    def __init__(self, name, amount, cost) -> None:
-        super(OrderEntry, self).__init__(self, name=name, amount=amount, cost=cost)
+    def __init__(self, name: str, amount: int, cost: int) -> None:
+        super(OrderEntry, self).__init__(self, name = name, amount = amount, cost = cost)
 
 
 class TotalMats(dict):
     """Dictionary for storing total required materials"""
 
-    def __init__(
-        self, bmats: int = 0, rmats: int = 0, emats: int = 0, hemats: int = 0
-    ) -> None:
-        super(TotalMats, self).__init__(self, Bmats=bmats, Rmats=rmats, Emats=emats, HEmats=hemats)
+    def __init__(self, bmats: int = 0, rmats: int = 0, emats: int = 0, hemats: int = 0) -> None:
+        super(TotalMats, self).__init__(self, Bmats = bmats, Rmats = rmats, Emats = emats, HEmats = hemats)
 
 
 class Order:
@@ -29,48 +27,38 @@ class Order:
         self.item = data["items"][name]
         self.type = self.item["Type"]
         self.amount = amount
-        self.status = True
         self.total_mats: TotalMats = TotalMats()
 
     def calculate_factory(self):
         """Calculate an orders cost in factory mode"""
         if self.type in ("Vehicle", "Shippable"):
-            raise TypeError(
-                "Cannot build Vehicles or Shippables in Factory, please select MPF."
-            )
+            raise TypeError(f"Cannot build {self.name} in Factory, please select MPF.")
 
         for resource in self.total_mats:
             self.total_mats[resource] = self.item[resource] * self.amount
     
-        return self
+        return self.total_mats
 
     def calcuate_mpf(self):
         """Calculate an orders cost in manufacturing mode"""
         if self.type != "Vehicle" and self.type != "Shippable" and self.amount < 3:
-            print("Cannot build less than 3 crates of items.")
-            self.status = False
-            return self.status
+            raise TypeError("Cannot build less than 3 crates of items.")
 
         if self.type in ("Medical", "Utility"):
-            print("Cannot build Medical and Utilities in MPF, please select Factory.")
-            self.status = False
-            return self.status
+            raise TypeError(f"Cannot build {self.name} in MPF, please select Factory.")
 
         if self.name == "Warhead":
-            print("You crazy fool! Mass producing Warheads?! Get outta here!")
-            self.status = False
-            return self.status
+            raise TypeError("You crazy fool! Mass producing Warheads?! Get outta here!")
 
-        max_mpf_queue = (
-            9 if not self.type == "Vehicle" or self.type == "Shippable" else 5
-        )
+        max_mpf_queue = 9 if not self.type == "Vehicle" or self.type == "Shippable" else 5
         place_in_queue = 1
         starting_discount = 10
         current_discount = 10
         discount_increment = 10
         max_discount = 50
+        count = 0
 
-        for count in range(self.amount):
+        while count < self.amount:
             if place_in_queue > max_mpf_queue:
                 place_in_queue = 1
                 current_discount = starting_discount
@@ -81,8 +69,10 @@ class Order:
 
             if current_discount < max_discount:
                 current_discount += discount_increment
+            
             place_in_queue += 1
-
+            count += 1
+        
         return self.total_mats
 
     def calculate_discounted_amount(self, amount, discount, type):
@@ -101,10 +91,10 @@ def handle_orders(orders):
             cost = Order(order["name"], order["amount"]).calcuate_mpf()
         else:
             cost = Order(order["name"], order["amount"]).calculate_factory()
+        
         for resource in order_data["total_mats"]:
             order_data["total_mats"][resource] += cost[resource]
-        print(order["name"])
-        print(OrderEntry(order["name"], order["amount"], cost))
+
         order_data["orders"].append(OrderEntry(order["name"], order["amount"], cost))
 
     return order_data

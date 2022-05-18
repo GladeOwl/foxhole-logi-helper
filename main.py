@@ -11,16 +11,12 @@ import orders
 
 # 1. Input a list of items along with the amount for each.
 # 2. Create a list of the inputted items, along with the materials required.
-# 3.
 
 ####
 # TEST
 # list of orders
 order_list = []
 order_list.append({"name": "7.62mm", "amount": 10, "mpf": True})
-order_list.append({"name": "Dusk ce.III", "amount": 6, "mpf": True})
-order_list.append({"name": "HC-2 Scorpion", "amount": 3, "mpf": True})
-order_list.append({"name": "UV-24 Icarus", "amount": 7, "mpf": True})
 
 orders_data = orders.handle_orders(order_list)
 
