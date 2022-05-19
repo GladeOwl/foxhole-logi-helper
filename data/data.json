@@ -1025,8 +1025,8 @@
         "Heavy Explosive Materials": {
             "aka": "HEMats",
             "Resource": "Sulphur",
-            "Per Stack": 0,
-            "Per Crate": 0,
+            "Per Stack": 100,
+            "Per Crate": 20,
             "Conversion Rate": 20
         },
         "Petrol": {

@@ -1,24 +1,26 @@
-""" GladeOwl's Foxhole Logistic Helper Script """
+""" Glade's Foxhole Logistic Helper Script """
+
+from fastapi import FastAPI, Request, Form
+from fastapi.responses import HTMLResponse
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+
 import json
 import orders
 
-
 # NOTE: Make it able to do the orders in Phases.
-# Meaning amount more than the max factory amount will be calculated as part of a different phase.
-# Simplifying trips.
 
-# INPUT: 1. Orders, 2. is it MPF, 3. Vehicle (optional, will default to Truck)
+with open("./data/data.json", "r", encoding="utf-8") as dataFile:
+    data = json.load(dataFile)
 
-# 1. Input a list of items along with the amount for each.
-# 2. Create a list of the inputted items, along with the materials required.
+app = FastAPI()
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
-####
-# TEST
-# list of orders
-order_list = []
-order_list.append({"name": "7.62mm", "amount": 10, "mpf": True})
+@app.get("/", response_class=HTMLResponse)
+async def root(request: Request):
+    return templates.TemplateResponse('index.html', context={ "request" : request, "data" : data })
 
-orders_data = orders.handle_orders(order_list)
-
-with open("output.json", "w", encoding="utf-8") as jsonf:
-    jsonf.write(json.dumps(orders_data, indent=4))
+@app.get("/getData",)
+async def root():
+    return data
